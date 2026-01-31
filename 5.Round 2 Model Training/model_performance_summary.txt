@@ -1,0 +1,40 @@
+=== Model training summary ===
+Date: Sat Jan 17 13:17:59 2026
+Random seed: 42
+Dataset: normalized.csv
+Number of samples: 206
+Feature shape: (206, 1280)
+
+Cross-validation (5-fold):
+  Mean R² = 0.4694 ± 0.0809
+  Best R²  = 0.5837
+  Mean Spearman = 0.6701 ± 0.0616
+  Best Spearman  = 0.7479
+  Mean RMSE = 0.1375 ± 0.0125
+  Best RMSE  = 0.1241
+  Mean MAE = 0.1023 ± 0.0118
+  Best MAE  = 0.0908
+
+Train/Test split (80%/20%):
+  Train R² = 0.8914, Train Spearman = 0.9673, Train RMSE = 0.063594, Train MAE = 0.039839
+  Test  R² = 0.3687, Test Spearman = 0.6287, Test  RMSE = 0.142568, Test  MAE = 0.102875
+
+Saved models:
+  xgb_model_on_train_split.pkl  (model trained on 80% train split)
+  xgb_best_fold_model.pkl       (best CV model: R²=0.5837, Spearman=0.7479, RMSE=0.1260, MAE=0.0991)
+  xgb_final_all_data_model.pkl  (final model trained on all data)
+
+Saved files:
+  cross_validation_results.csv  (detailed CV results)
+  cross_validation_results.png   (CV visualization)
+  cvx_plot_data.csv             (plotting data)
+
+Best parameters (used for all training):
+  colsample_bytree: 0.6
+  learning_rate: 0.05
+  max_depth: 4
+  min_child_weight: 3
+  n_estimators: 100
+  reg_alpha: 0.2
+  reg_lambda: 5
+  subsample: 0.5
