@@ -1,6 +1,7 @@
 A complete ML workflow container integrating model training, evaluation, and prediction
 ## Workflow
-<img width="827" height="337" alt="1" src="https://github.com/user-attachments/assets/75a1e6e8-a8fb-4b9b-84ad-a0b80ad0cf14" />
+<img width="3618" height="1473" alt="1" src="https://github.com/user-attachments/assets/d76b934c-2098-4573-b491-fa0ea217f22e" />
+
 
 
 ### 1. Regression Model Selection
