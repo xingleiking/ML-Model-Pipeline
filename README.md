@@ -1,4 +1,4 @@
-<img width="827" height="337" alt="1" src="https://github.com/user-attachments/assets/abb61b6e-78b8-473d-aa0f-c3155d6e3eb9" />A complete ML workflow container integrating model training, evaluation, and prediction
+A complete ML workflow container integrating model training, evaluation, and prediction
 ## Workflow
 <img width="827" height="337" alt="1" src="https://github.com/user-attachments/assets/75a1e6e8-a8fb-4b9b-84ad-a0b80ad0cf14" />
 
